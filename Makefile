@@ -12,7 +12,7 @@ OBJS = test.o generic.o
 CFLAGS += -DDEBUG
 
 .PHONY: all
-all: $(OBJS)
+all: test
 
 test: $(OBJS)
 	$(CC) -o $@ $(OBJS)
